@@ -1,0 +1,88 @@
+/* 
+
+
+position: fixed 
+/////
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+}
+/////
+
+
+Centering using Flexbox
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+///////
+
+*/
+body{
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    background-color: #00060b;
+    grid-row-gap:    20px;
+    grid-column-gap: 20px;
+
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 250px;
+  }
+
+#L{
+    background-color: blue;
+    grid-row-start:    2;
+grid-row-end:      3;
+grid-column-start: 4;
+grid-column-end:   5;
+text-align: left;
+padding-top: 250px;
+}
+#A{
+    background-color: blue;
+    grid-row-start:    3;
+grid-row-end:      4;
+grid-column-start: 6;
+grid-column-end:   7;
+text-align: right;
+}
+#R{
+    background-color: blue;
+    grid-row-start:    3;
+grid-row-end:      4;
+grid-column-start: 5;
+grid-column-end:   6;
+padding-top: 250px;
+}
+#P{
+    background-color: blue;
+    grid-row-start:    4;
+grid-row-end:      5;
+grid-column-start: 7;
+grid-column-end:   8;
+}
