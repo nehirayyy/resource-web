@@ -1,38 +1,5 @@
-/* 
-
-
-position: fixed 
-/////
-.relative {
-  position: relative;
-  width: 600px;
-  height: 400px;
-}
-.absolute {
-  position: absolute;
-  top: 120px;
-  right: 0;
-  width: 300px;
-  height: 200px;
-}
-/////
-
-
-Centering using Flexbox
-.vertical-container {
-  height: 300px;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-}
-///////
-
-*/
 body{
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1{
@@ -43,57 +10,45 @@ h1{
   font-weight: 100 px;
   font-style: normal;
 }
-.grid-container {
+
+#R{
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.gridContainer {
     display: grid;
-    grid-template-columns:repeat(10, 1fr);
+    /* grid-template-columns:repeat(10, 1fr);
     grid-template-rows: repeat(9, 1fr);
-    background-color: #00060b;
+      THIS IS THE GRID I MADE INITIALLY, it's like a print grid tbh */
+    grid-template-columns: 40% 20% 40%;
+  
     grid-row-gap:    20px;
     grid-column-gap: 20px;
 
   }
   
-  .grid-item {
+.gridContainer > div{
+  background: #eee;
+}
+
+.gridContainer > div:nth-child(odd){
+  background: #a7a4a4;
+} 
+/* this is for visial distinction, only for me as a demo
+for this to work, i gotta put each element in a different div */
+
+
+  /* .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     font-size: 70px;
     min-width: 100px;
     max-width: 200px;
     min-height: 250px;
-  }
+  } */
 
-#L{
-    background-color: blue;
-    grid-row-start:    2;
-grid-row-end:      3;
-grid-column-start: 4;
-grid-column-end:   5;
-text-align: left;
-padding-top: 250px;
-}
-#A{
-    background-color: blue;
-    grid-row-start:    3;
-grid-row-end:      4;
-grid-column-start: 6;
-grid-column-end:   7;
-text-align: right;
-}
-#R{
-    background-color: blue;
-    grid-row-start:    3;
-grid-row-end:      4;
-grid-column-start: 5;
-grid-column-end:   6;
-padding-top: 250px;
-}
-#P{
-    background-color: blue;
-    grid-row-start:    4;
-grid-row-end:      5;
-grid-column-start: 7;
-grid-column-end:   8;
-}
+
 
 .pinyon-script-regular {
   font-family: "Pinyon Script", cursive;
