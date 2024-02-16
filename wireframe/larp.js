@@ -1,5 +1,5 @@
 function hoverGlowL(){
-    var text = document.getElementById("L").style.backgroundColor = "black";
+    // var text = document.getElementById("L").style.backgroundColor = "black"; !!!!!!!!!!!
 }
 
 function removeGlowL(){

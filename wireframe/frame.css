@@ -2,16 +2,54 @@ body{
     margin: 0 auto;
 }
 
-h1{
+#L{
   color:blue;
   font-size: 120pt;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Darker Grotesque";
   font-optical-sizing: auto;
-  font-weight: 100 px;
+  font-weight: 300;
   font-style: normal;
-  
 }
 
+#A{
+  color:blue;
+  font-size: 120pt;
+  font-family: "Darker Grotesque";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#R{
+  color:blue;
+  font-family: "Pinyon Script", cursive;
+  font-size: 100pt;
+  font-weight: 400;
+  font-style: normal;
+  /* padding-top: 10000px;
+    SO MARGIN AND PADDING PROBABLY WON'T WORK CUZ THEY ARE IN SEPERATE BOXES */
+  text-shadow: 
+      0 0 41px rgb(0, 208, 255),
+      0 0 82px rgb(0, 208, 255),
+      0 0 92px rgb(0, 208, 255),
+      0 0 102px rgb(0, 208, 255),
+      0 0 151px rgb(0, 208, 255);
+/* text-shadow: [x-offset] [y-offset] [blur-radius] [color]; */
+
+  /* box-shadow: 0px 0px 60px 10px #0ff; 
+    NVMM this isn't for text*/
+  /* in order: x offset, y offset, blur size, spread size, color */
+  /* blur size and spread size are optional (they default to 0) */
+}
+
+#P{
+  color:blue;
+  font-size: 120pt;
+  font-family: "Darker Grotesque";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
 
 /* .rightColumn h1{
@@ -25,15 +63,7 @@ h1{
 
 
 
-#R{
-  font-family: "Pinyon Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 300%;
-  box-shadow: 120px 80px 40px 20px #0ff;
-  /* in order: x offset, y offset, blur size, spread size, color */
-  /* blur size and spread size are optional (they default to 0) */
-}
+
 
 
 
@@ -46,7 +76,6 @@ h1{
     grid-template-columns: 4fr 1fr 1fr 4fr;
     grid-template-rows: repeat(4, 1fr);
     grid-row-gap:    0; 
-
   }
   
   
@@ -76,6 +105,16 @@ for this to work, i gotta put each element in a different div */
   } */
 
 
+
+  /* // <uniquifier>: Use a uniquifier for the class name
+  // <weight>: Use a value from 300 to 900 */
+  
+  .darker-grotesque-h1{
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
 
 .pinyon-script-regular {
   font-family: "Pinyon Script", cursive;
