@@ -1,5 +1,33 @@
+const L = document.getElementById("L")
+
+L.addEventListener("mouseover", addRect());
+
+onmouseover = hoverGlowL(); 
+addRect();
+onmouseover = removeGlowL();
+
+onmouseover = hoverGlowA();
+onmouseover = removeGlowA();
+
+onmouseover = hoverGlowR();
+onmouseover = removeGlowR();
+
+onmouseover = hoverGlowP();
+onmouseover = removeGlowP();
+
+// if (hoverGlowL){
+//     console.log("aye");
+// }
+
+
+function addRect(){
+    console.log("rect");
+} 
+// NOT working so well right now
+
+
 function hoverGlowL(){
-    // var text = document.getElementById("L").style.backgroundColor = "black"; !!!!!!!!!!!
+    var text = document.getElementById("L").style.backgroundColor = "black";
 }
 
 function removeGlowL(){
@@ -28,14 +56,3 @@ function hoverGlowP(){
 function removeGlowP(){
     var text = document.getElementById("P").style.backgroundColor = "";
 }
-onmouseover = "hoverGlowL()";
-onmouseover = "removeGlowL()";
-
-onmouseover = "hoverGlowA()";
-onmouseover = "removeGlowA()";
-
-onmouseover = "hoverGlowR()";
-onmouseover = "removeGlowR()";
-
-onmouseover = "hoverGlowP()";
-onmouseover = "removeGlowP()";
