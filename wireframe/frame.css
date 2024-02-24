@@ -36,8 +36,8 @@
 
 #R{
   color:blue;
-  font-family: "Pinyon Script", cursive;
   font-size: 100pt;
+  font-family: "Noto Sans Runic", sans-serif;
   font-weight: 400;
   font-style: normal;
   position: absolute;
@@ -142,5 +142,11 @@ for this to work, i gotta put each element in a different div */
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
+  font-style: normal;
+}
+
+.noto-sans runic-regular {
+  font-family: "Noto Sans Runic", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
