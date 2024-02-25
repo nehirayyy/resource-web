@@ -81,7 +81,7 @@
 }
 
 #doll1-2{
-  right: 0;
+  margin-right: 0;
   left: 0;
   rotate: 30deg;
   z-index: 2;
@@ -98,6 +98,17 @@
 
 
 
+.doll2{
+  position: absolute;
+  width: 140px;
+}
+#doll2-1{
+  right: 0;
+  margin-left: 30px;
+  margin-top: 100px;
+  z-index: 1;
+}
+/* so margins help with pushing the gifa around */
 
 
   /* // <uniquifier>: Use a uniquifier for the class name
