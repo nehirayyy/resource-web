@@ -36,8 +36,8 @@
 
 #R{
   color:blue;
-  font-size: 100pt;
-  font-family: "Noto Sans Runic", sans-serif;
+  font-size: 106pt;
+  font-family: Loura;
   font-weight: 400;
   font-style: normal;
   position: absolute;
@@ -70,55 +70,6 @@
 }
 
 
-/* .rightColumn h1{
-  /* margin-top: 300%;
-  margin-right: 100%;
-}
-   */
-  
-  /* this is for the letters A & P that spilled off the sides. I just carried (A for now) on this column so they could be visible */
-
-
-
-
-
-
-
-
-
-/* .gridContainer {
-    display: grid;
-    /* grid-template-columns:repeat(10, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-      THIS IS THE GRID I MADE INITIALLY, it's like a print grid tbh */
-    /* grid-template-columns: 4fr 1fr 1fr 4fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-row-gap:    0; 
-  } */
-  
-/* .gridContainer > div{
-  background: #eee;
-}
-
-.gridContainer > div:nth-child(odd){
-  background: #a7a4a4;
-} 
-/* this is for visial distinction, only for me as a demo
-for this to work, i gotta put each element in a different div */
-
-/* .sideGifSpace, .topGifSpace{
-  border: 1px solid rgba(0, 0, 0, 0.8);
-} */ */ */
-
-  /* .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    font-size: 70px;
-    min-width: 100px;
-    max-width: 200px;
-    min-height: 250px;
-  } */
-
 
 
   /* // <uniquifier>: Use a uniquifier for the class name
@@ -145,8 +96,24 @@ for this to work, i gotta put each element in a different div */
   font-style: normal;
 }
 
-.noto-sans runic-regular {
+/* .noto-sans-runic-regular {
   font-family: "Noto Sans Runic", sans-serif;
   font-weight: 400;
   font-style: normal;
+} */
+
+
+/* latin */
+@font-face {
+  font-family: 'forestarms';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Forestarms.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Loura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/LouraRegular.ttf) format('truetype');
 }
