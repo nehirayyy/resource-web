@@ -5,7 +5,6 @@
 }
 
 
-
 #L{
   color:blue;
   font-size: 120pt;
@@ -68,6 +67,34 @@
     left: 55%;
     right: 0;
 }
+
+
+.doll1{
+  position: absolute;
+  width: 140px;
+}
+
+#doll1-1{
+  right: 0;
+  left: 200;
+  z-index: 1;
+}
+
+#doll1-2{
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background-blend-mode:difference;
+}
+
+#doll1-3{
+  top: 200;
+  z-index: 1;
+  border: 10px black;
+  rotate: 30deg;
+}
+
+
 
 
 
