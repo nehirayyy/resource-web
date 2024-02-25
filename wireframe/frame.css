@@ -76,13 +76,14 @@
 
 #doll1-1{
   right: 0;
-  left: 200;
+  left: 0;
   z-index: 1;
 }
 
 #doll1-2{
   right: 0;
   left: 0;
+  rotate: 30deg;
   z-index: 2;
   background-blend-mode: multiply;
 }
