@@ -180,8 +180,8 @@ const L = document.getElementById("L")
 
         const boundingRect = mygipsy1Element.getBoundingClientRect();
         const offset = {
-            x: evt.clientX - boundingRect.left,
-            y: evt.clientY - boundingRect.top,
+            x: evt.clientX +- window.scrollX,
+            y: evt.clientY +- window.scrollY,
         };
         evt.dataTransfer.setData("offset", JSON.stringify(offset));
         });
@@ -280,7 +280,6 @@ const L = document.getElementById("L")
 L.addEventListener("mouseover", addRect());
 
 onmouseover = hoverGlowL(); 
-addRect();
 onmouseover = removeGlowL();
 
 onmouseover = hoverGlowA();

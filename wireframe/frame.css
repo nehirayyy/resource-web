@@ -1,3 +1,7 @@
+body{
+  overflow-y: auto;
+}
+
 #everything_container{
     max-width: 1500px;
     margin: auto;
@@ -224,7 +228,8 @@ padding-right: 30px;
     #gipsy1{
       width: 90px;
       left: 50px;
-      top: 700px;
+      top: 700%
+      ;
     }
 
     #king1{
@@ -257,7 +262,12 @@ padding-right: 30px;
       top: 150px;
     }
 
-
+    #religion1{
+      position:fixed;
+      width: 100px;
+      left: 10px;
+      bottom: 10px;
+    }
 
   /* // <uniquifier>: Use a uniquifier for the class name
   // <weight>: Use a value from 300 to 900 */
