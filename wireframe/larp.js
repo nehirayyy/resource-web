@@ -274,6 +274,7 @@ const L = document.getElementById("L")
         });
 
 
+        
 //hover stufffff
 
 L.addEventListener("mouseover", addRect());
@@ -303,34 +304,34 @@ function addRect(){
 
 
 function hoverGlowL(){
-    var text = document.getElementById("L").style.backgroundColor = "black";
+    var text = document.getElementById("L").style.textShadow = "0 0 41px #00d0ff, 0 0 41px #00d0ff,  0 0 41px #00d0ff, 0 0 41px #00d0ff, 0 0 81px #00d0ff, 0 0 82px #00d0ff, 0 0 92px #00d0ff, 0 0 92px #00d0ff, 0 0 92px #00d0ff, 0 0 102px #00d0ff, 0 0 151px #00d0ff";
 }
 
 function removeGlowL(){
-    var text = document.getElementById("L").style.backgroundColor = "";
+    var text = document.getElementById("L").style.textShadow = '0px 0px 0px';
 }
 
 
 function hoverGlowA(){
-    var text = document.getElementById("A").style.backgroundColor = "black";
+    var text = document.getElementById("A").style.textShadow = "0 0 41px #00d0ff, 0 0 41px #00d0ff, 0 0 41px #00d0ff, 0 0 81px #00d0ff, 0 0 82px #00d0ff, 0 0 92px #00d0ff, 0 0 92px #00d0ff, 0 0 102px #00d0ff, 0 0 151px #00d0ff";
 }
 
 function removeGlowA(){
-    var text = document.getElementById("A").style.backgroundColor = "";
+    var text = document.getElementById("A").style.textShadow = '0px 0px 0px';
 }
 function hoverGlowR(){
-    var text = document.getElementById("R").style.backgroundColor = "black";
+    var text = document.getElementById("R").style.textShadow = "0 0 41px #00d0ff, 0 0 82px #00d0ff, 0 0 92px #00d0ff, 0 0 102px #00d0ff, 0 0 151px #00d0ff";
 }
 
 function removeGlowR(){
-    var text = document.getElementById("R").style.backgroundColor = "";
+    var text = document.getElementById("R").style.textShadow = '0px 0px 0px';
 }
 function hoverGlowP(){
-    var text = document.getElementById("P").style.backgroundColor = "black";
+    var text = document.getElementById("P").style.textShadow = "0 0 41px #00d0ff, 0 0 41px #00d0ff, 0 0 41px #00d0ff, 0 0 81px #00d0ff, 0 0 82px #00d0ff, 0 0 92px #00d0ff, 0 0 92px #00d0ff, 0 0 102px #00d0ff, 0 0 151px #00d0ff";
 }
 
 function removeGlowP(){
-    var text = document.getElementById("P").style.backgroundColor = "";
+    var text = document.getElementById("P").style.textShadow = '0px 0px 0px';
 }
 
 

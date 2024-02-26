@@ -17,6 +17,9 @@
     bottom: 0;
     left: 40%;
     right: 0;
+  /* border: 10px solid black; */
+  width: min-content;
+  height: min-content;
 }
 
 #A{
@@ -31,6 +34,8 @@
     bottom: 0;
     left: 55%;
     right: 0;
+  width: min-content;
+  height: min-content;
 }
 
 #R{
@@ -44,13 +49,15 @@
     bottom: 0;
     left: 40%;
     right: 0;
-
-  text-shadow: 
+  width: min-content;
+  height: min-content;
+  /* text-shadow: 
       0 0 41px rgb(0, 208, 255),
-      0 0 82px rgb(0, 208, 255),
+      0 0 82px #00d0ff,
       0 0 92px rgb(0, 208, 255),
       0 0 102px rgb(0, 208, 255),
-      0 0 151px rgb(0, 208, 255);
+      0 0 151px rgb(0, 208, 255); 
+               THANK YOU FOR YOUR SERVICE*/
 /* text-shadow: [x-offset] [y-offset] [blur-radius] [color]; */
 }
 
@@ -66,6 +73,8 @@
     bottom: 0;
     left: 55%;
     right: 0;
+  width: min-content;
+  height: min-content;
 }
 
 
