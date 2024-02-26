@@ -1,7 +1,7 @@
 #everything_container{
     max-width: 1500px;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -77,109 +77,192 @@
   height: min-content;
 }
 
-
-.doll1{
+#whatIsLarp{
+  font-family: Darker Grotesque;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30pt;
   position: absolute;
-  width: 180px;
+    top: 230%;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+  width: max-content;
+  height: min-content;
+  color:blue;
+  font-kerning: 200px;
 }
 
-#doll1-1{
-  right: 0;
-  left: 0;
-  z-index: 1;
-}
-
-#doll1-2{
-  margin-right: 0;
-  left: 0;
-  rotate: 30deg;
-  z-index: 2;
-  background-blend-mode: multiply;
-}
-
-#doll1-3{
-  top: 200;
-  z-index: 1;
-  border: 10px black;
-  rotate: 30deg;
-}
-
-
-
-
-.doll2{
+.paragraph{
+  font-family: Darker Grotesque;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
   position: absolute;
-  width: 180px;
+  
+  min-width: 1000;
+  max-width: 700;
+  height: min-content;
+  color:rgb(0, 0, 0);
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  text-indent: 1em;
 }
-#doll2-1{
-  right: 0;
-  margin-left: 30px;
-  margin-top: 100px;
-  z-index: 1;
+
+#whatParagraph{
+  top: 242%;
+  bottom: 0;
+  left: 10%;
+  right: 39%;
+text-align: left;
+padding-right: 30px;
 }
-/* so margins help with pushing the gifa around */
 
 
-.free-gifs{
+#whyLarp{
+  font-family: Darker Grotesque;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30pt;
   position: absolute;
-  z-index: 3;
+    top: 430%;
+    bottom: 0;
+    left: 800;
+    right: 10%;
+  width: max-content;
+  height: min-content;
+  color:blue;
+  font-kerning: 200px;
 }
 
-
-#drunk1{
-  width: 90px;
-  left: 200px;
-  top: 260px;
+#whyParagraph{
+  top: 442%;
+  bottom: 0;
+  left: 39%;
+  right: 10%;
+text-align: left;
+padding-right: 30px;
 }
 
-#drunk2{
-  width: 90px;
-  right: 400px;
-  top: 200px;
+  
+#larpSafety{
+  font-family: Darker Grotesque;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30pt;
+  position: absolute;
+    top: 630%;
+    bottom: 0;
+    left: 800;
+    right: 10%;
+  width: max-content;
+  height: min-content;
+  color:blue;
+  font-kerning: 200px;
 }
 
-#gipsy1{
-  width: 90px;
-  left: 50px;
-  top: 700px;
+#safetyParagraph{
+  top: 642%;
+  bottom: 0;
+  left: 39%;
+  right: 10%;
+text-align: left;
+padding-right: 30px;
 }
 
-#king1{
-  width: 90px;
-  right: 500px;
-  top: 500px;
+#writeLarp{
+  font-family: Darker Grotesque;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30pt;
+  position: absolute;
+    top: 830%;
+    bottom: 0;
+    left: 800;
+    right: 10%;
+  width: max-content;
+  height: min-content;
+  color:blue;
+  font-kerning: 200px;
 }
 
-#kiss1{
-  width: 80px;
-  right: 100px;
-  top: 700px;
+#writeParagraph{
+  top: 842%;
+  bottom: 0;
+  left: 39%;
+  right: 10%;
+text-align: left;
+padding-right: 30px;
 }
 
-#kiss2{
-  width: 150px;
-  left: 450px;
-  top: 500px;
-}
+    /* so margins help with pushing the gifs around */
 
-#dice1{
-  width: 190px;
-  left: 690px;
-  top: 350px;
-}
 
-#ballerina1{
-  width: 250px;
-  right: 690px;
-  top: 150px;
-}
+    .free-gifs{
+      position: absolute;
+      z-index: 3;
+    }
+
+
+    #drunk1{
+      width: 90px;
+      left: 200px;
+      top: 260px;
+    }
+
+    #drunk2{
+      width: 90px;
+      right: 400px;
+      top: 200px;
+    }
+
+    #gipsy1{
+      width: 90px;
+      left: 50px;
+      top: 700px;
+    }
+
+    #king1{
+      width: 90px;
+      right: 500px;
+      top: 500px;
+    }
+
+    #kiss1{
+      width: 80px;
+      right: 100px;
+      top: 700px;
+    }
+
+    #kiss2{
+      width: 150px;
+      left: 450px;
+      top: 500px;
+    }
+
+    #dice1{
+      width: 190px;
+      left: 690px;
+      top: 350px;
+    }
+
+    #ballerina1{
+      width: 250px;
+      right: 690px;
+      top: 150px;
+    }
 
 
 
   /* // <uniquifier>: Use a uniquifier for the class name
   // <weight>: Use a value from 300 to 900 */
   
-  .darker-grotesque-h1{
+  .darker-grotesque-titles{
     font-family: "Darker Grotesque", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -220,4 +303,11 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/LouraRegular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DarkerGrotesque';
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/DarkerGrotesque-VariableFont_wght.ttf) format('truetype');
 }
