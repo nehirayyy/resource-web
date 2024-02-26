@@ -113,6 +113,7 @@
 
 .free-gifs{
   position: absolute;
+  z-index: 3;
 }
 
 
