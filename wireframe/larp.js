@@ -173,40 +173,6 @@ const L = document.getElementById("L")
 
 //nexttttt
 
-        const mygipsy1Element = document.getElementById("gipsy1");
-
-        mygipsy1Element.addEventListener("dragstart", (evt) => {
-        evt.dataTransfer.setData("id", "gipsy1");
-
-        const boundingRect = mygipsy1Element.getBoundingClientRect();
-        const offset = {
-            x: evt.clientX +- window.scrollX,
-            y: evt.clientY +- window.scrollY,
-        };
-        evt.dataTransfer.setData("offset", JSON.stringify(offset));
-        });
-
-        document.documentElement.addEventListener("dragover", (evt) => {
-        evt.preventDefault();
-        evt.dataTransfer.dropEffect = "move";
-        });
-
-        document.documentElement.addEventListener("drop", (evt) => {
-        evt.preventDefault();
-
-        if (evt.dataTransfer.getData("id") === "gipsy1") {
-            const offset = JSON.parse(evt.dataTransfer.getData("offset"));
-            const xPos = evt.clientX - offset.x;
-            const yPos = evt.clientY - offset.y;
-            mygipsy1Element.style.left = `${xPos}px`;
-            mygipsy1Element.style.top = `${yPos}px`;
-            mygipsy1Element.style.bottom = "auto";
-            mygipsy1Element.style.right = "auto";
-        }
-        });
-
-//nexttttt
-
         const myking1Element = document.getElementById("king1");
 
         myking1Element.addEventListener("dragstart", (evt) => {
@@ -274,6 +240,145 @@ const L = document.getElementById("L")
         });
 
 
+//nexttttt
+
+const mycowgirl1Element = document.getElementById("cowgirl1");
+
+        mycowgirl1Element.addEventListener("dragstart", (evt) => {
+        evt.dataTransfer.setData("id", "cowgirl1");
+
+        const boundingRect = mycowgirl1Element.getBoundingClientRect();
+        const offset = {
+            x: evt.clientX - boundingRect.left,
+            y: evt.clientY - boundingRect.top,
+        };
+        evt.dataTransfer.setData("offset", JSON.stringify(offset));
+        });
+
+        document.documentElement.addEventListener("dragover", (evt) => {
+        evt.preventDefault();
+        evt.dataTransfer.dropEffect = "move";
+        });
+
+        document.documentElement.addEventListener("drop", (evt) => {
+        evt.preventDefault();
+
+        if (evt.dataTransfer.getData("id") === "cowgirl1") {
+            const offset = JSON.parse(evt.dataTransfer.getData("offset"));
+            const xPos = evt.clientX - offset.x;
+            const yPos = evt.clientY - offset.y;
+            mycowgirl1Element.style.left = `${xPos}px`;
+            mycowgirl1Element.style.top = `${yPos}px`;
+            mycowgirl1Element.style.bottom = "auto";
+            mycowgirl1Element.style.right = "auto";
+        }
+        });
+
+
+
+        ////GIFS AT THE BOTTOMMMMM
+    //nexttttt
+
+    const mygipsy1Element = document.getElementById("gipsy1");
+
+    mygipsy1Element.addEventListener("dragstart", (evt) => {
+    evt.dataTransfer.setData("id", "gipsy1");
+
+    const boundingRect = mygipsy1Element.getBoundingClientRect();
+    const offset = {
+        x: evt.clientX +- window.scrollX,
+        y: evt.clientY +- window.scrollY,
+    };
+    evt.dataTransfer.setData("offset", JSON.stringify(offset));
+    });
+
+    document.documentElement.addEventListener("dragover", (evt) => {
+    evt.preventDefault();
+    evt.dataTransfer.dropEffect = "move";
+    });
+
+    document.documentElement.addEventListener("drop", (evt) => {
+    evt.preventDefault();
+
+    if (evt.dataTransfer.getData("id") === "gipsy1") {
+        const offset = JSON.parse(evt.dataTransfer.getData("offset"));
+        const xPos = evt.clientX - offset.x;
+        const yPos = evt.clientY - offset.y;
+        mygipsy1Element.style.left = `${xPos}px`;
+        mygipsy1Element.style.top = `${yPos}px`;
+        mygipsy1Element.style.bottom = "auto";
+        mygipsy1Element.style.right = "auto";
+    }
+    });
+
+    //NEXTTTT
+
+    const mycowgirl2Element = document.getElementById("cowgirl2");
+
+    mycowgirl2Element.addEventListener("dragstart", (evt) => {
+    evt.dataTransfer.setData("id", "cowgirl2");
+
+    const boundingRect = mycowgirl2Element.getBoundingClientRect();
+    const offset = {
+        x: evt.clientX +- window.scrollX,
+        y: evt.clientY +- window.scrollY,
+    };
+    evt.dataTransfer.setData("offset", JSON.stringify(offset));
+    });
+
+    document.documentElement.addEventListener("dragover", (evt) => {
+    evt.preventDefault();
+    evt.dataTransfer.dropEffect = "move";
+    });
+
+    document.documentElement.addEventListener("drop", (evt) => {
+    evt.preventDefault();
+
+    if (evt.dataTransfer.getData("id") === "cowgirl2") {
+        const offset = JSON.parse(evt.dataTransfer.getData("offset"));
+        const xPos = evt.clientX - offset.x;
+        const yPos = evt.clientY - offset.y;
+        mycowgirl2Element.style.left = `${xPos}px`;
+        mycowgirl2Element.style.top = `${yPos}px`;
+        mycowgirl2Element.style.bottom = "auto";
+        mycowgirl2Element.style.right = "auto";
+    }
+    });
+
+
+    //NEXTTTT
+
+    const mycowgirl3Element = document.getElementById("cowgirl3");
+
+    mycowgirl3Element.addEventListener("dragstart", (evt) => {
+    evt.dataTransfer.setData("id", "cowgirl3");
+
+    const boundingRect = mycowgirl3Element.getBoundingClientRect();
+    const offset = {
+        x: evt.clientX + window.scrollX,
+        y: evt.clientY + window.scrollY,
+    };
+    evt.dataTransfer.setData("offset", JSON.stringify(offset));
+    });
+
+    document.documentElement.addEventListener("dragover", (evt) => {
+    evt.preventDefault();
+    evt.dataTransfer.dropEffect = "move";
+    });
+
+    document.documentElement.addEventListener("drop", (evt) => {
+    evt.preventDefault();
+
+    if (evt.dataTransfer.getData("id") === "cowgirl3") {
+        const offset = JSON.parse(evt.dataTransfer.getData("offset"));
+        const xPos = evt.clientX +- offset.x;
+        const yPos = evt.clientY +- offset.y;
+        mycowgirl3Element.style.left = `${xPos}px`;
+        mycowgirl3Element.style.top = `${yPos}px`;
+        mycowgirl3Element.style.bottom = "auto";
+        mycowgirl3Element.style.right = "auto";
+    }
+    });
         
 //hover stufffff
 

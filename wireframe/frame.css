@@ -9,6 +9,38 @@ body{
 }
 
 
+.homeTooltip{
+  visibility: hidden;
+ 
+  color: #000000;
+  font-family: "Darker Grotesque";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18pt;
+  font-style: normal;
+  text-align: left;
+  border-radius: 4px;
+  
+  text-shadow: 
+      0 0 11px rgb(0, 208, 255),
+      0 0 22px #00d0ff,
+      0 0 42px rgb(0, 208, 255),
+      0 0 42px rgb(0, 208, 255),
+      0 0 11px rgb(0, 208, 255); 
+
+  /* Position the tooltip text - see examples below! */
+  position: fixed;
+  bottom: 9%;
+  left: 95px;
+  z-index: 3;
+  line-height: 1em;
+}
+
+
+    .homeNavBox:hover .homeTooltip{
+      visibility: visible;
+    }
+
 .tooltiptext{
   visibility: hidden;
  
@@ -146,7 +178,7 @@ body{
   position: absolute;
     top: 230%;
     bottom: 0;
-    left: 10%;
+    left: 15%;
     right: 0;
   width: max-content;
   height: min-content;
@@ -174,7 +206,7 @@ body{
 #whatParagraph{
   top: 242%;
   bottom: 0;
-  left: 10%;
+  left: 15%;
   right: 39%;
 text-align: left;
 padding-right: 30px;
@@ -191,7 +223,7 @@ padding-right: 30px;
     top: 430%;
     bottom: 0;
     left: 800;
-    right: 10%;
+    right: 50%;
   width: max-content;
   height: min-content;
   color:blue;
@@ -205,6 +237,7 @@ padding-right: 30px;
   right: 10%;
 text-align: left;
 padding-right: 30px;
+width: 800px;
 }
 
   
@@ -217,8 +250,8 @@ padding-right: 30px;
   position: absolute;
     top: 630%;
     bottom: 0;
-    left: 800;
-    right: 10%;
+    right: 0;
+    left: 30%;
   width: max-content;
   height: min-content;
   color:blue;
@@ -244,7 +277,7 @@ padding-right: 30px;
     top: 830%;
     bottom: 0;
     left: 800;
-    right: 10%;
+    right: 50%;
   width: max-content;
   height: min-content;
   color:blue;
@@ -254,10 +287,11 @@ padding-right: 30px;
 #writeParagraph{
   top: 842%;
   bottom: 0;
-  left: 39%;
-  right: 10%;
+  left: 10%;
+  right: 800;
 text-align: left;
 padding-right: 30px;
+width: 800px;
 }
 
     /* so margins help with pushing the gifs around */
@@ -271,7 +305,7 @@ padding-right: 30px;
 
     #drunk1{
       width: 90px;
-      left: 200px;
+      left: 100px;
       top: 260px;
     }
 
@@ -281,12 +315,7 @@ padding-right: 30px;
       top: 200px;
     }
 
-    #gipsy1{
-      width: 90px;
-      left: 50px;
-      top: 700%
-      ;
-    }
+    
 
     #king1{
       width: 90px;
@@ -308,14 +337,14 @@ padding-right: 30px;
 
     #dice1{
       width: 190px;
-      left: 690px;
-      top: 350px;
+      left: 340px;
+      top: 50px;
     }
 
     #ballerina1{
       width: 250px;
-      right: 690px;
-      top: 150px;
+      right: 30px;
+      top: 50px;
     }
 
     #religion1{
@@ -323,6 +352,31 @@ padding-right: 30px;
       width: 100px;
       left: 10px;
       bottom: 10px;
+    }
+
+
+    #gipsy1{
+      width: 90px;
+      left: 50px;
+      top: 700%;
+    }
+
+    #cowgirl1{
+      width: 90px;
+      right: 700px;
+      top: 0px;
+    }
+
+    #cowgirl2{
+      width: 90px;
+      right: 700px;
+      top: 500%;
+    }
+
+    #cowgirl3{
+      width: 140px;
+      left: 700px;
+      top: 300%;
     }
 
   /* // <uniquifier>: Use a uniquifier for the class name
