@@ -400,6 +400,14 @@ font-kerning: 50px;
       top: 50px;
     }
 
+    #cowgirl1{
+      width: 90px;
+      right:580px;
+      top: 0px;
+    }
+
+    /* THE BOTTOM SECTION IS FOR THE ONES IN THE BOTTOM */
+
     #religion1{
       position:fixed;
       width: 100px;
@@ -414,17 +422,13 @@ font-kerning: 50px;
       top: 700%;
     }
 
-    #cowgirl1{
-      width: 90px;
-      right:580px;
-      top: 0px;
-    }
+    
 
     #cowgirl2{
       /* position: sticky; */
       width: 90px;
       right: 700px;
-      top: 500%;
+      top: 610%;
     }
 
     #cowgirl3{
@@ -432,6 +436,171 @@ font-kerning: 50px;
       left: 700px;
       top: 300%;
     }
+
+    #clown1{
+      width: 140px;
+      right: 700px;
+      top: 200%;
+    }
+
+    #gipsy2{
+      width: 100px;
+      right: 99px;
+      top: 130%;
+    }
+
+    #gipsy3{
+      width: 100px;
+      left: 790px;
+      top: 400%;
+    }
+
+    #wizard1{
+      width: 100px;
+      left: 299px;
+      top: 160%;
+    }
+
+    #wizard2{
+      width: 150px;
+      left: 390px;
+      top: 360%;
+    }
+
+    #milkman1{
+      width: 150px;
+      left: 609px;
+      top: 100%;
+    }
+
+    #milkman2{
+      width: 115px;
+      right: 300px;
+      top: 320%;
+    }
+
+    #religion2{
+      width: 130px;
+      left: 1109px;
+      top: 136%;
+    }
+
+    #religion3{
+      width: 115px;
+      right: 30px;
+      top: 390%;
+    }
+
+    #disco1{
+      width: 130px;
+      left: 1109px;
+      top: 736%;
+    }
+
+    #fireplace1{
+      width: 200px;
+      left: 330px;
+      top: 580%;
+    }
+
+    #frog1{
+      width: 130px;
+      right: 119px;
+      top: 806%;
+    }
+
+    #horse1{
+      width: 200px;
+      right: 200px;
+      top: 550%;
+    }
+
+    #mirror1{
+      width: 130px;
+      left: 290px;
+      top: 766%;
+    }
+
+    #elderly1{
+      width: 120px;
+      right: 1330px;
+      top: 810%;
+    }
+
+/* aaaayeee */
+    #elf1{
+      width: 130px;
+      right: 429px;
+      top: 456%;
+    }
+
+    #gardener1{
+      width: 110px;
+      left: 240px;
+      top: 90%;
+    }
+
+    #gardener2{
+      width: 120px;
+      left: 430px;
+      top: 450%;
+    }
+
+    #painter1{
+      width: 130px;
+      right: 919px;
+      top: 776%;
+    }
+
+    #cop1{
+      width: 120px;
+      left: 1000px;
+      top: 343%;
+    }
+
+    #cop2{
+      width: 130px;
+      right: 290px;
+      top: 700%;
+    }
+
+    #cop3{
+      width: 120px;
+      left: 1030px;
+      top: 510%;
+    }
+
+    #queen1{
+      width: 130px;
+      right: 519px;
+      top: 256%;
+    }
+
+    #tarzan1{
+      width: 180px;
+      left: 200px;
+      top: 510%;
+    }
+
+    #teacher1{
+      width: 130px;
+      left: 290px;
+      top: 866%;
+    }
+
+    #woman1{
+      width: 150px;
+      right: 110px;
+      top: 210%;
+    }
+
+    #woman2{
+      width: 80px;
+      left: 330px;
+      top: 650%;
+    }
+
+
 
   /* // <uniquifier>: Use a uniquifier for the class name
   // <weight>: Use a value from 300 to 900 */
