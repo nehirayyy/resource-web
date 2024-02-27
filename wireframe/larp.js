@@ -348,38 +348,43 @@ const mycowgirl1Element = document.getElementById("cowgirl1");
 
     //NEXTTTT
 
-    const mycowgirl3Element = document.getElementById("cowgirl3");
+const mycowgirl3Element = document.getElementById("cowgirl3");
 
-    mycowgirl3Element.addEventListener("dragstart", (evt) => {
-    evt.dataTransfer.setData("id", "cowgirl3");
+mycowgirl3Element.addEventListener("dragstart", (evt) => {
+evt.dataTransfer.setData("id", "cowgirl3");
 
-    const boundingRect = mycowgirl3Element.getBoundingClientRect();
-    const offset = {
-        x: evt.clientX + window.scrollX,
-        y: evt.clientY + window.scrollY,
-    };
-    evt.dataTransfer.setData("offset", JSON.stringify(offset));
-    });
+const boundingRect = mycowgirl3Element.getBoundingClientRect();
+const offset = {
+    x: evt.clientX +- window.scrollX,
+    y: evt.clientY +- window.scrollY,
+};
+evt.dataTransfer.setData("offset", JSON.stringify(offset));
+});
 
-    document.documentElement.addEventListener("dragover", (evt) => {
-    evt.preventDefault();
-    evt.dataTransfer.dropEffect = "move";
-    });
+document.documentElement.addEventListener("dragover", (evt) => {
+evt.preventDefault();
+evt.dataTransfer.dropEffect = "move";
+});
 
-    document.documentElement.addEventListener("drop", (evt) => {
-    evt.preventDefault();
+document.documentElement.addEventListener("drop", (evt) => {
+evt.preventDefault();
 
-    if (evt.dataTransfer.getData("id") === "cowgirl3") {
-        const offset = JSON.parse(evt.dataTransfer.getData("offset"));
-        const xPos = evt.clientX +- offset.x;
-        const yPos = evt.clientY +- offset.y;
-        mycowgirl3Element.style.left = `${xPos}px`;
-        mycowgirl3Element.style.top = `${yPos}px`;
-        mycowgirl3Element.style.bottom = "auto";
-        mycowgirl3Element.style.right = "auto";
-    }
-    });
+if (evt.dataTransfer.getData("id") === "cowgirl3") {
+    const offset = JSON.parse(evt.dataTransfer.getData("offset"));
+    const xPos = evt.clientX - offset.x;
+    const yPos = evt.clientY - offset.y;
+    mycowgirl3Element.style.left = `${xPos}px`;
+    mycowgirl3Element.style.top = `${yPos}px`;
+    mycowgirl3Element.style.bottom = "auto";
+    mycowgirl3Element.style.right = "auto";
+}
+});
+    
         
+
+
+
+
 //hover stufffff
 
 L.addEventListener("mouseover", addRect());

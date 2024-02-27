@@ -8,6 +8,19 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-shadow: 
+      0 0 11px rgb(0, 208, 255),
+      0 0 22px #00d0ff,
+      0 0 42px rgb(0, 208, 255),
+      0 0 42px rgb(0, 208, 255),
+      0 0 11px rgb(0, 208, 255); 
+}
+
 #intro{
   text-align: center;
   color: #000000;
@@ -397,7 +410,7 @@ font-kerning: 50px;
 
     #gipsy1{
       width: 90px;
-      left: 50px;
+      left: 230px;
       top: 700%;
     }
 
@@ -408,6 +421,7 @@ font-kerning: 50px;
     }
 
     #cowgirl2{
+      /* position: sticky; */
       width: 90px;
       right: 700px;
       top: 500%;
