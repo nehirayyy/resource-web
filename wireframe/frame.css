@@ -8,6 +8,17 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+#intro{
+  text-align: center;
+  color: #000000;
+  font-family: "Darker Grotesque";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 26pt;
+  font-style: normal;
+  line-height: 0.8em;
+  margin-left: 2%
+}
 
 .homeTooltip{
   visibility: hidden;
@@ -194,13 +205,12 @@ body{
   font-size: 18pt;
   position: absolute;
   
-  min-width: 1000;
-  max-width: 700;
+
   height: min-content;
   color:rgb(0, 0, 0);
   letter-spacing: 0.02em;
   line-height: 1.1;
-  text-indent: 1em;
+
 }
 
 #whatParagraph{
@@ -210,6 +220,7 @@ body{
   right: 39%;
 text-align: left;
 padding-right: 30px;
+width: 710px;
 }
 
 
@@ -222,8 +233,8 @@ padding-right: 30px;
   position: absolute;
     top: 430%;
     bottom: 0;
-    left: 800;
-    right: 50%;
+    left: 39%;
+    right: 0%;
   width: max-content;
   height: min-content;
   color:blue;
@@ -234,12 +245,17 @@ padding-right: 30px;
   top: 442%;
   bottom: 0;
   left: 39%;
-  right: 10%;
+  right: 0%;
 text-align: left;
 padding-right: 30px;
-width: 800px;
+width: 470px;
+word-spacing: -0.1em;
+padding-bottom: -100px;
 }
 
+/* #secondWhyParagraph{
+  
+} */
   
 #larpSafety{
   font-family: Darker Grotesque;
@@ -251,7 +267,7 @@ width: 800px;
     top: 630%;
     bottom: 0;
     right: 0;
-    left: 30%;
+    left: 39%;
   width: max-content;
   height: min-content;
   color:blue;
@@ -265,6 +281,10 @@ width: 800px;
   right: 10%;
 text-align: left;
 padding-right: 30px;
+width: 870px;
+
+
+
 }
 
 #writeLarp{
@@ -276,7 +296,7 @@ padding-right: 30px;
   position: absolute;
     top: 830%;
     bottom: 0;
-    left: 800;
+    left: 33%;
     right: 50%;
   width: max-content;
   height: min-content;
@@ -285,15 +305,35 @@ padding-right: 30px;
 }
 
 #writeParagraph{
+  position: absolute;
   top: 842%;
   bottom: 0;
-  left: 10%;
+  left: 33%;
   right: 800;
 text-align: left;
 padding-right: 30px;
-width: 800px;
+width: 820px;
+font-kerning: 50px;
+
 }
 
+#firstWriteParagraph{
+  padding-bottom: 22px;
+  letter-spacing: 0.02em;
+}
+
+#secondWriteParagraph{
+  padding-bottom: 22px;
+}
+
+#thirdWriteParagraph{
+  padding-bottom: 22px;
+  letter-spacing: -0.01em;
+}
+
+#fourthWriteParagraph{
+  padding-bottom: 22px;
+}
     /* so margins help with pushing the gifs around */
 
 
@@ -363,7 +403,7 @@ width: 800px;
 
     #cowgirl1{
       width: 90px;
-      right: 700px;
+      right:580px;
       top: 0px;
     }
 
